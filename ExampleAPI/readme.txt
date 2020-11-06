@@ -1,6 +1,6 @@
 This is the way a basic ExampleAPI App is Structured
 run.py is the runner of your App
-This app comes with its own Python virtual environment (venv)
+Create a Virtual environment called venv using virtualenv
 
 ExampleAPI /
 	__init__.py handles the creation of the app, blueprint registration and more
@@ -22,3 +22,7 @@ ExampleAPI /
 To run the app:
 	-> activate virtual environment
 	-> python run.py
+
+	(or)
+
+	run start.bat
